@@ -69,14 +69,14 @@ main {
 
 
     transition:0.6s ease-in-out;
-    color:#000000;
+    color:white;
 }
 
 
 
 #links a {
     margin: 20px;
-    color:#000000;
+    color:white;
     /*color: inherit;*/
     text-decoration: none;
     transition: 0.4s ease-in-out;
@@ -113,7 +113,7 @@ main {
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
-    background-size:500% 500% !important;
+    background-size:cover;
     -webkit-animation: Gradient 20s ease infinite;
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
@@ -123,10 +123,10 @@ main {
 
 
 #middle {
-    width:100%;
-    height:80vh;
-    background: linear-gradient(0deg, rgba(255,255,255,1), rgba(255,255,255,0)), url("images/background.jpg") center center fixed;
-    background-size: 100% auto;
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url("https://pixahive.com/wp-content/uploads/2021/03/Rainy-pattern-background-wallpaper-368138-pixahive.jpg") center center fixed;
+    background-size: cover;
     background-repeat:no-repeat;
 
     color:rgb(0, 0, 0);
@@ -139,6 +139,7 @@ main {
 #tagline {
     font-size:40px;
     width:60%;
+    color: #fff;
 }
 #portfolio {
     width:80%;
@@ -238,7 +239,7 @@ main {
     font-family: 'Assistant', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#000000;
+    color:black;
 }
 #contact form textarea {
     width:96%;
@@ -252,7 +253,7 @@ main {
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#000000;
+    color:black;
 }
 #contact form input:focus {
     outline:none;
@@ -263,11 +264,10 @@ main {
     border-bottom:2px solid #6A0DAD;
 }
 ::placeholder {
-    color:#000000;
+    color:black;
 }
 
 .btn_one {
-    color:rgb(0, 0, 0);
     padding:10px 40px;
     border-radius:50px;
     border:2px solid #6A0DAD;
@@ -430,10 +430,10 @@ button:focus {
     background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-    background: #000; 
+    background: #6A0DAD; 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: rgb(80, 9, 130); 
 }
 @-webkit-keyframes Gradient {
 0% {background-position: 0% 50%}
