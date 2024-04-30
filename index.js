@@ -19,8 +19,13 @@ window.onscroll = function(){
 if ((width >= 900)){
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         $("#middle").css("background-size","150% auto");
+        $("#links a").css("margin","-20px 20px -20px 20px");
+        $("#header").css("border-bottom","medium solid #461778");
     }else{
-        $("#middle").css("background-size","100% auto");        
+        $("#middle").css("background-size","100% auto"); 
+        $("#links a").css("margin","1px 20px -10px 20px");
+        $("#header").css("border-bottom","none");
+        
     }
 }
 };
